@@ -1,0 +1,7 @@
+.box-content input{
+    font-weight: bold;
+    padding: 3px;
+}
+.box-content textarea{
+    font-weight: bold;
+}

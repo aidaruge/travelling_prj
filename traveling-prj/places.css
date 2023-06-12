@@ -1,0 +1,107 @@
+body{
+    background: linear-gradient(30deg, rgb(169, 156, 156), rgb(29, 24, 24));
+}
+#page-logo a{
+    color: rgb(183, 230, 235);
+}
+
+#header{
+    position: static;
+}
+
+#header a{
+    color: rgb(183, 230, 235);
+}
+
+.header-links a:hover{
+    background-color: aqua;
+    color: white;
+}
+
+.main-container{
+    width: 1200px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 10px;
+    height: 1800px;
+}
+
+/* span:nth-of-type(3){
+    /* display: inline;
+    grid-column: 1 / span 2;
+} */
+
+.item-content{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    width: 600px;
+    margin: 10px;
+}
+
+#content{
+    display: block;
+}
+
+img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+p{
+    font-size: 14px;
+    padding: 5px;
+    /* display: inline-flex;
+    flex-direction: column; 
+    justify-content: space-between;*/
+}
+
+.item-content h2{
+    display: inline;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.actions{
+    font-size: 30px;
+    text-align: end;
+    color: rgb(115, 10, 10);
+    text-decoration: solid;
+}
+
+.actions a{
+    color: cadetblue;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.actions a:hover{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 3px;
+}
+.second-container{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 0;
+
+}
+.second-container h2{
+    margin: 0;
+}
+.second-container a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+}
+.second-container a:hover{
+    box-shadow: 5px 7px gray;
+}
